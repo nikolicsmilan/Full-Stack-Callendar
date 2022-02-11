@@ -1,0 +1,36 @@
+.calendarheader-prev-button {
+  border: 1px solid grey;
+  padding: 5px;
+  justify-self: center;
+  align-self: center;
+  grid-column: 2;
+  grid-row: 1/1;
+}
+
+.calendarheader-today-button {
+  border: 1px solid grey;
+  padding: 5px;
+  justify-self: center;
+  align-self: center;
+  grid-column: 6;
+  grid-row: 1;
+  font-weight: 900;
+}
+
+.calendarheader-next-button {
+  border: 1px solid grey;
+  padding: 5px;
+  justify-self: center;
+  align-self: center;
+  grid-column: 11;
+  grid-row: 1/1;
+}
+
+.calendarheader-date {
+  grid-column: 1/13;
+  grid-row: 2;
+  justify-self: center;
+  align-self: center;
+  font-weight: 900;
+  font-size: 24px;
+}

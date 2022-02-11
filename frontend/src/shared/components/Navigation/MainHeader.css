@@ -1,0 +1,69 @@
+/*
+SIDEDRAWER
+
+A SIDEDRAWERBEN BEN BENT VAN
+
+main-navigation__drawer-nav >> MOBIL NÉZET
+meg a teljes NavLinks
+benne a két linkkel
+logout és back
+
+
+
+
+
+A TELJES HEADER A NARANSÁRGA CÍMMEL MEG LINKEKKEL
+EZ FELETT VAN A SIDEDRAWER BENNE A LINKEKKEL
+
+A MAIN-HEADER ÉS HEADER-GRID BEN VANNAK
+
+MAIN-NAVIGATION__MENU-BTN
+
+TITLE-GRID
+
+LINKS-GRID EZ TARTALMAZZA  MIDDLE-GRID-FOR-NAV MELY TARTALAMZA A NAVLINKS >> DESKTOP NÉZETEN
+*/
+
+.main-header {
+ /* grid-row: 1/1;*/
+
+  width: 100%;
+  /*height: 4rem;*/
+  /*display: flex;*/
+ /* align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #ff0055;*/
+  background: orange;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.26);
+ /* padding: 0 1rem;
+  z-index: 5;*/
+}
+.header-grid {
+  grid-column: 1/13;
+  display: grid;
+  background-color: orange;
+
+  /* grid-template-rows:repeat(12, 1fr)*/
+  grid-template-columns: repeat(12, 1fr);
+  margin-bottom:10px;
+}
+
+main {
+ /* margin-top: 5rem;*/
+}
+
+@media (min-width: 768px) {
+  .main-header {
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 768px) {
+  .header-grid {
+    grid-row: 1;
+   /* background-color: blueviolet;*/
+  }
+
+}

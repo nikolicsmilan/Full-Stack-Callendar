@@ -1,0 +1,213 @@
+.event {
+  border: 1px solid orange;
+  grid-column: 5/9;
+  grid-row: 4/9;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+  z-index: 10;
+}
+
+.form {
+  grid-column: 1/13;
+  grid-row: 1/13;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+  background-color: white;
+}
+
+.modal-header {
+  grid-column: 1/13;
+  grid-row: 1/3;
+  background: orange;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.modal-menu-button {
+  grid-column: 1/1;
+}
+
+.modal-delete-button {
+  grid-column: 2/12;
+  text-align: center;
+  color: red;
+}
+
+.modal-close-button {
+  grid-column: 13/13;
+  text-align: right;
+}
+
+.icons {
+  width: 30px;
+  height: 30px;
+}
+
+.modal-body {
+  grid-column: 1/13;
+  grid-row: 3/13;
+  display: grid;
+  grid-template-columns: repeat(24, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+}
+
+.modal-task-icon {
+  grid-column: 1/2;
+  grid-row: 1/8;
+  justify-self: center;
+  align-self: center;
+  font-size: 18px;
+}
+.modal-task-title {
+  grid-column: 3/25;
+  grid-row: 1/8;
+  font-size: 18px;
+}
+
+.modal-description-icon {
+  grid-column: 1/2;
+  grid-row: 9;
+  justify-self: center;
+  align-self: center;
+}
+
+.model-input-description {
+  grid-column: 3/25;
+  grid-row: 9;
+  font-size: 18px;
+}
+.modal-time-icon {
+  grid-column: 1/2;
+  grid-row: 11;
+  justify-self: center;
+  align-self: center;
+}
+
+.modal-time {
+  grid-column: 3/25;
+  grid-row: 11;
+  align-self: center;
+}
+
+.modal-bookmark {
+  grid-column: 1/25;
+  grid-row: 13;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(2, 10px);
+  align-self: center;
+}
+
+.modal-bookmark-icon {
+  grid-column: 1/2;
+  grid-row: 1/3;
+  align-self: center;
+}
+
+.modalfooter {
+  grid-column: 1/13;
+  grid-row: 13;
+  font-size: 18px;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.modal-save-button {
+  grid-column: 12/12;
+  background-color: rgb(33, 150, 243);
+  padding: 15px;
+  color: white;
+  opacity: 0.8;
+  border: none;
+}
+
+.modal-save-button:hover {
+  opacity: 1;
+}
+
+.kekalahuzas {
+  border-bottom: 1px solid grey;
+}
+
+.fontsize18 {
+  font-size: 18px;
+}
+
+.white-color {
+  color: white;
+}
+
+.pointer {
+  cursor: pointer;
+}
+.circle {
+  width: 20px;
+  height: 20px;
+}
+
+.indigo {
+  background-color: indigo;
+  border-radius: 100%;
+}
+
+.indigo-label {
+  background-color: indigo;
+}
+
+.gray {
+  background-color: gray;
+  border-radius: 100%;
+}
+
+.gray-label {
+  background-color: gray;
+}
+
+.green {
+  background-color: green;
+  border-radius: 100%;
+}
+
+.green-label {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+  border-radius: 100%;
+}
+
+.blue-label {
+  background-color: blue;
+}
+
+.red {
+  background-color: red;
+  border-radius: 100%;
+}
+
+.red-label {
+  background-color: red;
+}
+
+.purple {
+  background-color: purple;
+  border-radius: 100%;
+}
+
+.purple-label {
+  background-color: purple;
+}
+
+@media (max-width: 768px) {
+  .event {
+    grid-column: 2/12;
+    grid-row: 4/9;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    z-index: 10;
+  }
+}

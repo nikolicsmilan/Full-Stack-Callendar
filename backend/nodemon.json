@@ -1,0 +1,7 @@
+{"env":{
+    "DB_USER":"xxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "DB_PASSWORD":"xxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "DB_NAME":"xxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "JWT_KEY":"xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+}}
+

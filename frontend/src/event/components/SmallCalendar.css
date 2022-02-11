@@ -1,0 +1,80 @@
+.smallcalendar {
+  grid-column: 1/13;
+  grid-row: 3;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 20px);
+}
+
+.smallcalendar-header {
+  grid-column: 1/13;
+  grid-row: 1/4;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 20px);
+}
+
+.smallcalendar-date {
+  grid-row: 1/3;
+  grid-column: 2/9;
+  background-color: white;
+  font-size: 20px;
+  font-weight: 900;
+  justify-self: start;
+  align-self: center;
+  margin: 0;
+  padding: 0;
+}
+
+.smallcalendar-date-prev {
+  grid-row: 1/3;
+  grid-column: 9/10;
+  background-color: white;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.smallcalendar-date-next {
+  grid-row: 1/3;
+  grid-column: 11;
+  background-color: white;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.smallcalendar-month-table {
+  grid-column: 1/13;
+  grid-row: 4/11;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  text-align: center;
+}
+
+.smallcalendar-dayname {
+  grid-column: 1/8;
+  grid-row: 1;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  border-bottom: 1px solid grey;
+}
+
+.smallcalendar-day-number-frame {
+  grid-column: 1/8;
+  grid-row: 2/13;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(7, 1fr);
+  grid-row-gap: 20px;
+}
+
+@media (max-width: 768px) {
+  .smallcalendar-day-number-frame {
+    grid-column: 1/8;
+    grid-row: 2/13;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    grid-row-gap: 20px;
+  }
+}

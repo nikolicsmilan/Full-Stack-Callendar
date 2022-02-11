@@ -1,0 +1,24 @@
+.authentication__header {
+  color: white;
+  text-align: center;
+}
+
+.authentication { 
+  text-align: center;
+  display: grid;
+  grid-column: 1/13;
+  grid-row: 2/13;
+  grid-template-rows: repeat(12, 1fr);
+  justify-items: center;
+}
+
+.authentication-inner {
+  grid-row:3; 
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  border-radius: 6px;
+  padding: 2rem;
+}
+
+.authentication form {
+  margin-bottom: 1rem;
+}
