@@ -2,11 +2,8 @@
 
 This App made by MERN stack. Tried and working.
 
-My reason that i made this app:
-To order a company. (They using it now)
 Summarizes and presents my developer knowledge.
 It performs the basic functions you would expect from a modern web application.
-I tried implemeneting MVC structure.
 The outstanding third party packages that help implementing it: dayjs
 
 Frontend keyword:
@@ -22,5 +19,5 @@ FOR THE REAL USING HERE YOU MUST WRITE "token" IN IF STATEMENT
 
 Backend keyword:
 Node, Express, Mongoose, Schema
-cors, autehetntication, jsonwebtoken, hashing, router, controllers,
+cors, authentication, jsonwebtoken, hashing, router, controllers,
 validator, errorHandling, 
