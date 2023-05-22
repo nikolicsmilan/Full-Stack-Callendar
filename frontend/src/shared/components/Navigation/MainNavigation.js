@@ -9,16 +9,17 @@ import Backdrop from '../UIElements/Backdrop';
 import './MainNavigation.css';
 
 const MainNavigation = (props) => {
+  // State to manage whether the side drawer is open or closed
   const [drawerIsOpen, setDrawerIsOpen] = useState(false);
-
+  // Handler to open the side drawer
   const openDrawerHandler = () => {
     setDrawerIsOpen(true);
   };
-
+  // Handler to close the side drawer
   const closeDrawerHandler = () => {
     setDrawerIsOpen(false);
   };
-
+  /*The NavLinks component is rendered twice, once inside the side drawer and once inside the main header, to display the navigation links. */
   return (
     <React.Fragment>
       {drawerIsOpen && <Backdrop onClick={closeDrawerHandler} />}
@@ -27,7 +28,7 @@ const MainNavigation = (props) => {
           <NavLinks />
         </nav>
       </SideDrawer>
-
+      {/*MainHeader contains the main header of the navigation. It includes the button to open the side drawer, the title, and additional navigation links. */}
       <MainHeader>
         <button
           className="main-navigation__menu-btn"
@@ -41,7 +42,8 @@ const MainNavigation = (props) => {
         <div className="title-grid">
           <h1 className="main-navigation__title fontsize-18">
             <Link to="/">
-              <span className="black">S</span>&<span className="black ">M </span>
+              <span className="black">S</span>&
+              <span className="black ">M </span>
               BÚTORDESIGN KFT. NAPTÁR
             </Link>
           </h1>
@@ -52,11 +54,9 @@ const MainNavigation = (props) => {
             <NavLinks />
           </nav>
         </div>
-
       </MainHeader>
     </React.Fragment>
   );
 };
 
 export default MainNavigation;
-//main-navigation__header-nav

@@ -1,19 +1,14 @@
 .back-main-page-link-grid {
   grid-column: 1/5;
- /* grid-row: 1;*/
- display: flex;
+  display: flex;
   align-items: center;
- /* background-color: chocolate;*/
 }
 
 .logout-link-grid {
   grid-column: 7/13;
- /* grid-row: 1;*/
   display: flex;
   align-items: center;
- /* background-color: black;*/
 }
-
 
 .nav-links {
   list-style: none;
@@ -21,8 +16,6 @@
   padding: 0;
   width: 100%;
   height: 100%;
- /* display: flex;
-  flex-direction: column;*/
   justify-content: center;
   align-items: center;
 }
@@ -65,48 +58,31 @@
   color: white;
 }
 
-
-/*Nagy képernyőre vonatkozik*/
 @media (min-width: 768px) {
   .nav-links {
     flex-direction: row;
-   
   }
 
   .nav-links li {
     margin: 0 0.5rem;
-   
   }
 
   .nav-links a {
     color: white;
-   
+
     text-decoration: none;
   }
 
   .nav-links button {
     border: 1px solid white;
     color: white;
-  
+
     background: transparent;
   }
-  
+
   .nav-links button:hover,
   .nav-links button:active {
     background: #f8df00;
     color: #292929;
   }
-
-  
 }
-
-
-/*Kis képernyőre vonatkozik*/
-@media (max-width: 768px) {
-  
-
-  
-}
-
-
-

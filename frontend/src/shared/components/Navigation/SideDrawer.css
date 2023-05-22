@@ -1,7 +1,3 @@
-/*Ez van legkívül*/
-
-
-
 .side-drawer {
   position: fixed;
   left: 0;
@@ -10,19 +6,12 @@
   height: 100vh;
   width: 70%;
   background: white;
- /* box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);*/
-
 }
 
 @media (max-width: 768px) {
-
-  .side-drawer{
-   /* display: none;*/
-  }
   .side-drawer {
- grid-row: 1/12;
- background-color: brown;
- border: 3px solid yellow;
+    grid-row: 1/12;
+    background-color: brown;
+    border: 3px solid yellow;
   }
-  
 }
