@@ -6,10 +6,10 @@ import {
   Switch,
 } from 'react-router-dom';
 
-//import Calendar from './event/pages/Calendar';
+
 import GlobalContext from './context/GlobalContext';
 import EventModal from './event/components/EventModal';
-//import Auth from './user/pages/Auth';
+
 import MainNavigation from './shared/components/Navigation/MainNavigation';
 import LoadingSpinner from './shared/components/UIElements/LoadingSpinner';
 import { AuthContext } from './shared/context/auth-context';
